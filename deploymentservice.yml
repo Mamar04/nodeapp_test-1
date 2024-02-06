@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: thetips4you/nodeapp:latest
+        image: yhdm/jenkins-docker-hub2
         ports:
         - containerPort: 3000
         
