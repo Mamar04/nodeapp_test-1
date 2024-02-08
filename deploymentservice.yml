@@ -2,7 +2,7 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
 metadata:
   name: jenkins-deployer
-  namespace: defaut
+  namespace: lfs1558
 rules:
 - apiGroups: [""]
   resources: ["pods", "services", "deployments"]
